@@ -6,6 +6,23 @@ DESIGNED & DEVELOPED by FREEHTML5.CO
 
 //////////////////////////////////////////////////////
 */
+
+.column1 {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.underrubrik1 {
+font-size: 40px;
+}
 @font-face {
   font-family: 'themify';
   src: url("../fonts/themify/themify.eot?-fvbane");
@@ -363,7 +380,7 @@ pre {
   padding: 0 !important;
   margin: 0 !important;
   color: #000000;
-  font-size: 18px !important;
+  font-size: 25px !important;
   line-height: 20px !important;
 }
 #fh5co-work .fh5co-work-item .fh5co-overlay-text .fh5co-categories {
@@ -377,7 +394,7 @@ pre {
   margin: 0;
   list-style: none;
   display: inline;
-  font-size: 11px;
+  font-size: 18px;
   color: #7b7b7b;
 }
 #fh5co-work .fh5co-work-item .fh5co-overlay-text .fh5co-categories li::after {
